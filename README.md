@@ -13,4 +13,4 @@ This is a simple e-commerce web application built using HTML, CSS, and JavaScrip
 Open index.html in a browser.
 
 ## Author
-Your Name
+Abhishek R D
