@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Commerce Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>E-Commerce Store</h1>
+
+  <div id="products"></div>
+
+  <h2>Cart</h2>
+  <div id="cart"></div>
+  <h2>Customer Details</h2>
+
+<input type="text" id="custName" placeholder="Enter your name"><br><br>
+<input type="text" id="custPhone" placeholder="Enter phone number"><br><br>
+<textarea id="custAddress" placeholder="Enter address"></textarea><br><br>
+
+<button onclick="placeOrder()">Buy Now</button>
+<h2>Track Your Order</h2>
+
+<input type="text" id="trackId" placeholder="Enter Order ID">
+<button onclick="trackOrder()">Track Order</button>
+
+<p id="trackResult"></p>
+
+
+<p id="orderMsg"></p>
+
+  <h3>Total: ₹<span id="total">0</span></h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
