@@ -12,7 +12,7 @@ const productDiv = document.getElementById("products");
 const cartDiv = document.getElementById("cart");
 const totalSpan = document.getElementById("total");
 
-// Display products
+
 products.forEach(p => {
   productDiv.innerHTML += `
     <div class="product">
@@ -50,3 +50,4 @@ function removeItem(index) {
   cart.splice(index, 1);
   updateCart();
 }
+
